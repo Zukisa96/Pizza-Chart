@@ -1,0 +1,139 @@
+body {
+   background-color: #bde0fe;
+}
+.cart{
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+    background-color: #bde0fe;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;}
+    .main{
+        flex: 1;
+        margin: auto;
+        display: flex;
+    }
+    .display{
+        display: flex;
+    }
+    .a2{
+        margin: 1em;
+        padding: 1em;
+    }
+    .aa{
+        margin-left: 50%;
+        display: flex;
+    }
+    .h1{
+        background-color: whitesmoke;
+        size: 5em;
+        font-size: large;
+        text-align: center;
+
+    }
+    .h2{
+        font-size: larger;
+        font-style: normal;
+        color: black solid;
+    }
+    .btn{
+        background-color: #cdb4db;
+        margin: 1em;
+        font-size: medium;
+        border-radius: 1em;
+    }
+    .btn5{
+        background-color: #ffafcc;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+    .btn6{
+        background-color: #ffafcc;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btn7{
+        background-color: #ffafcc;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btnopen{
+        color: black;
+        background-color: #a2d2ff;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+    .btn2{
+        color: black;
+        background-color: #ffafcc;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+
+    .messege{
+        background-color: black;
+        color: white;
+        margin: 1em;
+        font-size: large;
+    }
+    .cart-box{
+        display: inline;
+        background-color: blueviolet;
+    }
+.small {
+padding: 1em;
+margin: 1em;
+background-color:#cdb4db;
+  border: 10px solid black;
+
+}
+.Medium {
+    padding: 1em;
+    margin: 1em;
+    background-color: #ffc8dd;
+    border: 5px solid black;
+    opacity: 2;
+  
+}
+.Large {
+    padding: 1em;
+    margin: 1em;
+    background-color: #bde0fe;
+    border: 2px solid black;
+    opacity: 2;
+  
+  
+} 
+.contact {
+    padding: 1em;
+    margin: 1em;
+    background-color:#a2d2ff;
+}
+.heading {
+    padding: 1em;
+    margin: 1em;
+    background-color: #ffafcc;
+}
+@media(min-width: 768px) {
+    .body {
+        background-color: #cdb4db;
+    }
+    .pizzas {
+        display: flex;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 1em;
+    }
+}
